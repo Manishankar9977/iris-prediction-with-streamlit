@@ -14,9 +14,9 @@ except ImportError:
 import streamlit as st
 import pandas as pd
 import numpy as np
-seto=Image.open('D:\\iris\\set.jpg')
-vero=Image.open('D:\\iris\\ver.jpg')
-virg=Image.open('D:\\iris\\vir.jpg')
+seto=Image.open('set.jpg')
+vero=Image.open('ver.jpg')
+virg=Image.open('vir.jpg')
 
 iris_data = load_iris()
 
@@ -104,7 +104,7 @@ with col1:
   st.write(data1)
 with col2:
   st.write("""#### Visual description of various features of Iris Species""")
-  vv=Image.open('D:\\iris\\flower.png')
+  vv=Image.open('flower.png')
   st.image(vv)
   
 
