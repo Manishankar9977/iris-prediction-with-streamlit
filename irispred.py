@@ -94,7 +94,7 @@ st.write(df)
 
 prediction=predict()
 
-prediction_proba = model.predict_proba(df)
+
 
 
 col1,col2=st.columns(2)
@@ -139,8 +139,6 @@ with co2:
   st.code(code, language='python')
 
 
-st.subheader('Prediction Probability')
-st.write(prediction_proba)
 
 my_bar = st.progress(0)
 
